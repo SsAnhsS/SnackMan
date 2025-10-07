@@ -1,0 +1,19 @@
+package de.hsrm.mi.swt.snackman.entities.map.enums;
+
+public enum WallAlignmentStatus {
+    CASE0_NONE,
+    CASE1_LEFT_RIGHT,
+    CASE2_TOP_BOTTOM,
+    CASE3_BOTTOM_LEFT,
+    CASE4_TOP_LEFT,
+    CASE5_TOP_RIGHT,
+    CASE6_BOTTOM_RIGHT,
+    CASE7_BOTTOM_LEFT_RIGHT,
+    CASE8_TOP_BOTTOM_LEFT,
+    CASE9_TOP_LEFT_RIGHT,
+    CASE10_TOP_BOTTOM_RIGHT,
+    CASE11_BOTTOM,
+    CASE12_LEFT,
+    CASE13_TOP,
+    CASE14_RIGHT
+}

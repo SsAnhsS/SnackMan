@@ -1,0 +1,144 @@
+{
+    "button": {
+        "singlePlayer": "Einzelspieler",
+        "multiPlayer": "Mehrspieler",
+        "leaderBoard": "Bestenliste",
+        "save": "Speichern",
+        "back": "Zurück",
+        "backToMainMenu": " Hauptmenü",
+        "ok": "OK",
+        "cancel": "Abbrechen",
+        "startGame": "Spiel starten",
+        "importMap": "Map importieren",
+        "exportMap": " Map exportieren",
+        "copyLink": " Link kopieren",
+        "createNewLobby": "Neue Lobby erstellen",
+        "createLobby": "Lobby erstellen",
+        "leaveLobby": "Lobby verlassen",
+        "createNewLeaderBoardEntry": " Erstelle einen neuen Bestenlisten-Eintrag"
+    },
+    "savePlayerName": {
+        "label": "Bitte gib deinen Namen ein:",
+        "placeholder": "max. 16 Buchstaben",
+        "error": {
+            "playerNameEmpty": "Der Spieler-Name kann nicht leer sein!"
+        }
+    },
+    "leaderBoard": {
+        "title": "Bestenliste",
+        "date": "Datum",
+        "duration": "Dauer"
+    },
+    "newLeaderBoardEntry": {
+        "title": "Neuer Bestenlisten-Eintrag",
+        "label": "Bitte gib deinen Namen ein:",
+        "playedTime": "Gespielte Zeit: {time} Minuten",
+        "error": {
+            "playerNameEmpty": "Der Spieler-Name kann nicht leer sein!"
+        }
+    },
+    "difficulty": {
+        "easy": "EINFACH",
+        "difficult": "SCHWER",
+        "title": "Wähle den Schwierigkeitsgrad für die Geister!",
+        "description1": "Wenn du",
+        "description2": "wählst, verfolgen dich die Geister nur, wenn sie dich sehen. Wenn du aber mutig genug bist und",
+        "description3": "wählst, werden dich die Geister immer finden (auch wenn sie dich nicht sehen)!"
+    },
+    "lobbyList": {
+        "title": "Lobbies",
+        "playerCount": {
+            "player": "Spieler"
+        }
+    },
+    "createLobby": {
+        "title": "Neue Lobby",
+        "form": {
+            "label": "Name eingeben:"
+        },
+        "error": {
+            "lobbyNameEmpty": "Der Lobby-Name kann nicht leer sein!",
+            "lobbyNameDuplicate": "Lobby-Name existiert bereits! Bitte wähle einen anderen."
+        }
+    },
+    "chooseRole": {
+        "title": "Wähle deinen Charakter",
+        "playerCount": {
+            "onePlayer": "Spieler muss seine Rolle wählen",
+            "twoPlayers": "Spieler müssen ihre Rollen wählen"
+        },
+        "alreadyChosen": "Dieser Charakter wurde bereits gewählt!",
+        "error": {
+            "selection": "Fehler beim Auswählen des Charakters!",
+            "connectionFailed": "Verbindung zum Server fehlgeschlagen!",
+            "mapStatus": {
+                "heading": "Map-Status-Fehler",
+                "text": "Aktualisieren des Map-Status fehlgeschlagen."
+            },
+            "everyPlayerNeedsRole": "Jeder Spieler muss eine Rolle wählen  !",
+            "exactlyOneSnackMan": "Es muss genau einen Happenmann geben und alle Spieler müssen eine Rolle haben!"
+        }
+    },
+    "role": {
+        "snackman": "Happenmann",
+        "ghost": "Geist"
+    },
+    "lobby": {
+        "playerCount": {
+            "player": "Spieler"
+        },
+        "linkCopied": "Link in die Zwischenablage kopiert",
+        "mapName": {
+            "generated": "Generierte Map",
+            "uploaded": "Hochgeladene Map"
+        },
+        "mapFile": {
+            "ghostCount": "Die Map-Datei muss mindestens 4x \"G\" für 4 Ghost-Spieler enthalten.",
+            "invalidChars": "Die Map-Datei darf nur die folgenden Zeichen enthalten: S, G, C, o, # und Leerzeichen.",
+            "exactlyOneS": "Die Map-Datei muss genau ein \"S\" enthalten.",
+            "invalidFileType": "Ungültiger Dateityp. Es sind nur .txt-Dateien zulässig."
+        }
+    },
+    "popup": {
+        "lobbyFull": {
+            "heading": "Lobby voll",
+            "text": "Bitte wähle oder erstelle eine andere!"
+        },
+        "uploadingFile": {
+            "heading": "Fehler beim Hochladen der Datei"
+        },
+        "mapNotValid": {
+            "heading": "Map-Datei ist nicht gültig",
+            "text": "Bitte lade eine .txt-Datei hoch"
+        },
+        "notExisting": {
+            "heading": "Die Lobby existiert nicht",
+            "text": "Bitte wähle oder erstelle eine andere!"
+        },
+        "cantStart": {
+            "heading": "Start nicht möglich",
+            "notEnoughPlayers": "Nicht genug Spieler um Rollen auszuwählen!",
+            "onlyAdminCanInit": "Nur der Admin kann die Wahl der Rollen initiieren!"
+        }
+    },
+    "gameEnd": {
+        "gameResult": {
+            "winner": {
+                "snackman": "HAPPENMANN IST DER GEWINNER",
+                "ghosts": "DIE GEISTER HABEN GEWONNEN"
+            }
+        },
+        "gameReason": {
+            "calorieTarget": "Happenmann hat sein Kalorienziel erreicht!",
+            "noCaloriesLeft": "Die Geister haben den Happenmann so oft erschreckt, bis er keine Kalorien mehr hatte!",
+            "timeIsUp": "Die Zeit ist um und der Happenmann hat nicht genug Kalorien gesammelt!"
+        },
+        "playingTime": "Das Spiel lief {time} Minuten",
+        "feedback": {
+            "mapSaved": "Map gespeichert",
+            "success": "Erfolg",
+            "mapNotSaved": " Map nicht gespeichert",
+            "error": "Fehler"
+        }
+    }
+}

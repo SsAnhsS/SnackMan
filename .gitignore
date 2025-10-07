@@ -1,0 +1,51 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+.DS_Store
+
+src/main/java/de/hsrm/mi/swt/snackman/entities/mobileObjects/eatingMobs/Chicken/Characters/MovementSkripts/ChickenMovementSkript$py.class
+src/main/java/de/hsrm/mi/swt/snackman/ChickenMovementSkript$py.class
+src/main/java/de/hsrm/mi/swt/snackman/Maze$py.class
+Maze.txt
+/src/main/java/de/hsrm/mi/swt/snackman/GhostMovementSkript$py.class
+/src/main/java/de/hsrm/mi/swt/snackman/SmartGhostMovementSkript$py.class
+
+extensions/
+*.dylib
+mini-maze.txt
+leaderboard.txt

@@ -1,0 +1,144 @@
+{
+    "button": {
+        "singlePlayer": "Singleplayer",
+        "multiPlayer": "Multiplayer",
+        "leaderBoard": "Leaderboard",
+        "save": "Save",
+        "back": "Back",
+        "backToMainMenu": "Main Menu",
+        "ok": "OK",
+        "cancel": "Cancel",
+        "startGame": "Start Game",
+        "importMap": "Import map",
+        "exportMap": "Export map",
+        "copyLink": "Copy link",
+        "createNewLobby": "Create new Lobby",
+        "createLobby": "Create Lobby",
+        "leaveLobby": "Leave Lobby",
+        "createNewLeaderBoardEntry": "Create new leaderboard entry"
+    },
+    "savePlayerName": {
+        "label": "Please enter your name:",
+        "placeholder": "max. 16 characters",
+        "error": {
+            "playerNameEmpty": "Player-name can’t be empty!"
+        }
+    },
+    "leaderBoard": {
+        "title": "Leaderboard",
+        "date": "Date",
+        "duration": "Duration"
+    },
+    "newLeaderBoardEntry": {
+        "title": "New Leaderboard entry",
+        "label": "Please enter your name:",
+        "playedTime": "Played time: {time} minutes",
+        "error": {
+            "playerNameEmpty": "Player-name can’t be empty!"
+        }
+    },
+    "difficulty": {
+        "easy": "EASY",
+        "difficult": "DIFFICULT",
+        "title": "Choose the difficulty level for the ghosts!",
+        "description1": "When you choose",
+        "description2": ", ghosts will only chase you if they can see you. However, if you are brave enough to choose",
+        "description3": ", ghosts will always find you (even when they can't see you)!"
+    },
+    "lobbyList": {
+        "title": "Lobbies",
+        "playerCount": {
+            "player": "Player"
+        }
+    },
+    "createLobby": {
+        "title": "New Lobby",
+        "form": {
+            "label": "Enter name:"
+        },
+        "error": {
+            "lobbyNameEmpty": "Lobby-name can’t be empty!",
+            "lobbyNameDuplicate": "Lobby-name already exists! Please choose another name."
+        }
+    },
+    "chooseRole": {
+        "title": "Choose your character",
+        "playerCount": {
+            "onePlayer": "player needs to choose their role",
+            "twoPlayers": "players need to choose their role"
+        },
+        "alreadyChosen": "This character is already chosen!",
+        "error": {
+            "selection": "Erorr while selecting character!",
+            "connectionFailed": "Failed to connect to the server!",
+            "mapStatus": {
+                "heading": "Map Status Error",
+                "text": "Failed to update the map status."
+            },
+            "everyPlayerNeedsRole": "Every Player has tot choose a role!",
+            "exactlyOneSnackMan": "There must be exactly one SnackMan and all players munst have a role!"
+        }
+    },
+    "role": {
+        "snackman": "Snackman",
+        "ghost": "Ghost"
+    },
+    "lobby": {
+        "playerCount": {
+            "player": "Players"
+        },
+        "linkCopied": "Link copied to clipboard",
+        "mapName": {
+            "generated": "Generated Map",
+            "uploaded": "Uploaded Map"
+        },
+        "mapFile": {
+            "ghostCount": "The map file must contain at least 4 \"G\"s for 4 ghost players.",
+            "invalidChars": "The map file is only allowed to contain the following characters: S, G, C, o, #, and spaces.",
+            "exactlyOneS": "The map file must contain exactly one \"S\".",
+            "invalidFileType": "Invalid file type. Only .txt files are allowed."
+        }
+    },
+    "popup": {
+        "lobbyFull": {
+            "heading": "Lobby full",
+            "text": "Please choose or create another one!"
+        },
+        "uploadingFile": {
+            "heading": "Error uploading file"
+        },
+        "mapNotValid": {
+            "heading": "Mapfile is not valid",
+            "text": "Please upload a .txt-file"
+        },
+        "notExisting": {
+            "heading": "Lobby does not exist",
+            "text": "Please choose or create another one!"
+        },
+        "cantStart": {
+            "heading": "Can’t start the game",
+            "notEnoughPlayers": "Not enough players to choose Role!",
+            "onlyAdminCanInit": "The role selection can only be initiated by the host!"
+        }
+    },
+    "gameEnd": {
+        "gameResult": {
+            "winner": {
+                "snackman": "SNACKMAN IS THE WINNER",
+                "ghosts": "GHOSTS ARE THE WINNER"
+            }
+        },
+        "gameReason": {
+            "calorieTarget": "SnackMan has reached the calorie target!",
+            "noCaloriesLeft": "The ghosts scared SnackMan too many times until he had no calories left!",
+            "timeIsUp": "The time is up and SnackMan hasn't collected enough calories!"
+        },
+        "playingTime": "The playing time was {time} minutes",
+        "feedback": {
+            "mapSaved": "Map saved",
+            "success": "Success",
+            "mapNotSaved": "Map not saved",
+            "error": "Error"
+        }
+    }
+}

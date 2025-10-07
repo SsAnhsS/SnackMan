@@ -1,0 +1,106 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.3.5'
+	id 'io.spring.dependency-management' version '1.1.6'
+	id 'org.sonarqube' version '6.0.0.5145'
+	id "jacoco"
+	id "application"
+}
+
+group = 'de.hsrm.mi.swtpro'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	sourceCompatibility = JavaVersion.VERSION_21
+ 	targetCompatibility = JavaVersion.VERSION_21
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(21)
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+sonar {
+	properties {
+		property 'sonar.token', 'sqa_3dc52c217568dc01c177ee6647816b7f4ff8c0dd'
+		property 'sonar.host.url', 'http://localhost:9000/sonar'
+	}
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.projectlombok:lombok'
+	// implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.springframework.boot:spring-boot-starter-websocket'
+	implementation 'org.python:jython-standalone:2.7.1'
+    implementation 'org.joml:joml:1.10.8'
+    // JUnit 5 (falls nicht bereits enthalten)
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+    // Mockito für das Mocken von Objekten
+    testImplementation 'org.mockito:mockito-core:4.8.0'
+
+	implementation 'org.python:jython-standalone:2.7.4'
+}
+
+test {
+ useJUnitPlatform()
+ finalizedBy jacocoTestReport
+}
+
+/*
+ * Jacoco ist ein Werkzeug zur Testueberdeckungs-Berechnung
+ * https://docs.gradle.org/current/userguide/jacoco_plugin.html
+ */
+jacoco {
+ toolVersion = "0.8.12"
+}
+jacocoTestReport {
+ dependsOn test
+ reports {
+ xml.required = true
+ }
+}
+
+
+// Frontend-Erstellung soll zusätzlich bei "./gradlew bootJar" ausgeführt werden
+task build_frontend {
+     doLast {
+		// JS-Pakete in Vue-Projekt installieren
+		exec {
+			workingDir "./frontend"
+			commandLine "npm install".split()
+		}
+		// Vue-Frontend bauen
+		exec {
+			workingDir "./frontend"
+			commandLine "npm run build".split()
+		}
+		// eventuell vorhandenes public/fe (Frontend)-Verzeichnis loeschen
+		delete files("./src/main/resources/public/")
+
+		// dist-Ordner aus Vue-Projekt als Spring "public"-Ordner in src/main/resources kopieren
+		copy {
+			from "./frontend/dist"
+			into "./src/main/resources/public/"
+		}
+	}
+}
+bootJar.dependsOn build_frontend
+
+task clean_frontend {
+    delete files("${projectDir}/src/main/resources/public/")
+    delete files("${projectDir}/frontend/node_modules/")
+    delete files("${projectDir}/frontend/dist/")
+    delete files("${projectDir}/bin/")
+}
+clean.dependsOn clean_frontend
+
+
+

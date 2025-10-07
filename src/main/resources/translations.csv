@@ -1,0 +1,132 @@
+# languages;en;de
+
+# Buttons
+button.singlePlayer;Singleplayer;Einzelspieler
+button.multiPlayer;Multiplayer;Mehrspieler
+button.leaderBoard;Leaderboard;Bestenliste
+
+button.save;Save;Speichern
+button.back;Back;Zurück
+button.backToMainMenu;Main Menu; Hauptmenü
+button.ok;OK;OK
+button.cancel;Cancel;Abbrechen
+
+button.startGame;Start Game;Spiel starten
+
+button.importMap;Import map;Map importieren
+button.exportMap;Export map; Map exportieren
+
+button.copyLink;Copy link; Link kopieren
+
+button.createNewLobby;Create new Lobby;Neue Lobby erstellen
+button.createLobby;Create Lobby;Lobby erstellen
+button.leaveLobby;Leave Lobby;Lobby verlassen
+
+button.createNewLeaderBoardEntry;Create new leaderboard entry; Erstelle einen neuen Bestenlisten-Eintrag
+
+
+# PlayerNameForm
+savePlayerName.label;Please enter your name:;Bitte gib deinen Namen ein:
+savePlayerName.placeholder;max. 16 characters;max. 16 Buchstaben
+savePlayerName.error.playerNameEmpty;Player-name can’t be empty!;Der Spieler-Name kann nicht leer sein!
+
+
+# Leaderboard
+leaderBoard.title;Leaderboard;Bestenliste
+leaderBoard.date;Date;Datum
+leaderBoard.duration;Duration;Dauer
+
+
+# CreateNewLeaderBoardEntry
+newLeaderBoardEntry.title;New Leaderboard entry;Neuer Bestenlisten-Eintrag
+newLeaderBoardEntry.label;Please enter your name:;Bitte gib deinen Namen ein:
+newLeaderBoardEntry.playedTime;Played time: {time} minutes;Gespielte Zeit: {time} Minuten
+newLeaderBoardEntry.error.playerNameEmpty;Player-name can’t be empty!;Der Spieler-Name kann nicht leer sein!
+
+
+# Difficulty
+difficulty.easy;EASY;EINFACH
+difficulty.difficult;DIFFICULT;SCHWER
+
+difficulty.title;Choose the difficulty level for the ghosts!;Wähle den Schwierigkeitsgrad für die Geister!
+
+difficulty.description1;When you choose;Wenn du
+difficulty.description2;, ghosts will only chase you if they can see you. However, if you are brave enough to choose;wählst, verfolgen dich die Geister nur, wenn sie dich sehen. Wenn du aber mutig genug bist und 
+difficulty.description3;, ghosts will always find you (even when they can't see you)!;wählst, werden dich die Geister immer finden (auch wenn sie dich nicht sehen)!
+
+
+# LobbyListView
+lobbyList.title;Lobbies;Lobbies
+lobbyList.playerCount.player;Player;Spieler
+
+
+# CreateLobbyForm
+createLobby.title;New Lobby;Neue Lobby
+
+createLobby.form.label;Enter name:;Name eingeben:
+
+createLobby.error.lobbyNameEmpty;Lobby-name can’t be empty!;Der Lobby-Name kann nicht leer sein!
+createLobby.error.lobbyNameDuplicate;Lobby-name already exists! Please choose another name.;Lobby-Name existiert bereits! Bitte wähle einen anderen.
+
+
+# ChooseRole
+chooseRole.title;Choose your character;Wähle deinen Charakter
+chooseRole.playerCount.onePlayer;player needs to choose their role;Spieler muss seine Rolle wählen
+chooseRole.playerCount.twoPlayers;players need to choose their role;Spieler müssen ihre Rollen wählen
+
+chooseRole.alreadyChosen;This character is already chosen!;Dieser Charakter wurde bereits gewählt!
+
+chooseRole.error.selection;Erorr while selecting character!;Fehler beim Auswählen des Charakters!
+chooseRole.error.connectionFailed;Failed to connect to the server!;Verbindung zum Server fehlgeschlagen!
+chooseRole.error.mapStatus.heading;Map Status Error;Map-Status-Fehler
+chooseRole.error.mapStatus.text;Failed to update the map status.;Aktualisieren des Map-Status fehlgeschlagen.
+chooseRole.error.everyPlayerNeedsRole;Every Player has tot choose a role!;Jeder Spieler muss eine Rolle wählen  !
+chooseRole.error.exactlyOneSnackMan;There must be exactly one SnackMan and all players munst have a role!;Es muss genau einen Happenmann geben und alle Spieler müssen eine Rolle haben!
+
+role.snackman;Snackman;Happenmann
+role.ghost;Ghost;Geist
+
+
+# LobbyView
+lobby.playerCount.player;Players;Spieler
+lobby.linkCopied;Link copied to clipboard;Link in die Zwischenablage kopiert
+lobby.mapName.generated;Generated Map;Generierte Map
+lobby.mapName.uploaded;Uploaded Map;Hochgeladene Map
+lobby.mapFile.ghostCount;The map file must contain at least 4 "G"s for 4 ghost players.;Die Map-Datei muss mindestens 4x "G" für 4 Ghost-Spieler enthalten.
+lobby.mapFile.invalidChars;The map file is only allowed to contain the following characters: S, G, C, o, #, and spaces.;Die Map-Datei darf nur die folgenden Zeichen enthalten: S, G, C, o, # und Leerzeichen.
+lobby.mapFile.exactlyOneS;The map file must contain exactly one "S".;Die Map-Datei muss genau ein "S" enthalten.
+lobby.mapFile.invalidFileType;Invalid file type. Only .txt files are allowed.;Ungültiger Dateityp. Es sind nur .txt-Dateien zulässig.
+
+
+# PopUps
+popup.lobbyFull.heading;Lobby full;Lobby voll
+popup.lobbyFull.text;Please choose or create another one!;Bitte wähle oder erstelle eine andere!
+
+popup.notEnoughPlayers
+
+popup.uploadingFile.heading;Error uploading file;Fehler beim Hochladen der Datei
+
+popup.mapNotValid.heading;Mapfile is not valid;Map-Datei ist nicht gültig
+popup.mapNotValid.text;Please upload a .txt-file;Bitte lade eine .txt-Datei hoch
+
+popup.notExisting.heading;Lobby does not exist;Die Lobby existiert nicht
+popup.notExisting.text;Please choose or create another one!;Bitte wähle oder erstelle eine andere!
+
+popup.cantStart.heading;Can’t start the game;Start nicht möglich
+popup.cantStart.notEnoughPlayers;Not enough players to choose Role!;Nicht genug Spieler um Rollen auszuwählen!
+popup.cantStart.onlyAdminCanInit;The role selection can only be initiated by the host!;Nur der Admin kann die Wahl der Rollen initiieren!
+
+
+# GameEndView
+gameEnd.gameResult.winner.snackman;SNACKMAN IS THE WINNER;HAPPENMANN IST DER GEWINNER
+gameEnd.gameResult.winner.ghosts;GHOSTS ARE THE WINNER;DIE GEISTER HABEN GEWINNER
+gameEnd.gameReason.calorieTarget;SnackMan has reached the calorie target!;Happenmann hat sein Kalorienziel erreicht!
+gameEnd.gameReason.noCaloriesLeft;The ghosts scared SnackMan too many times until he had no calories left!;Die Geister haben den Happenmann so oft erschreckt, bis er keine Kalorien mehr hatte!
+gameEnd.gameReason.timeIsUp;The time is up and SnackMan hasn't collected enough calories!;Die Zeit ist um und der Happenmann hat nicht genug Kalorien gesammelt!
+
+gameEnd.playingTime;The playing time was {time} minutes;Das Spiel lief {time} Minuten
+
+gameEnd.feedback.mapSaved;Map saved;Map gespeichert
+gameEnd.feedback.success;Success;Erfolg
+gameEnd.feedback.mapNotSaved;Map not saved; Map nicht gespeichert
+gameEnd.feedback.error;Error;Fehler
