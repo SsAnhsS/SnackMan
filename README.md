@@ -1,7 +1,7 @@
 
 ## 🕹️ Projektbeschreibung
 
-![Spielübersicht](link_zum_bild)
+<img width="2487" height="1465" alt="Screenshot from 2025-10-27 11-49-13" src="https://github.com/user-attachments/assets/ae7f493d-8bb1-4dda-8ec9-3fc93d5e584f" />
 
 **SnackMan Multiplayer** ist ein 3D-Mehrspieler-Spiel, in dem mehrere **SnackMen** und **Geister** von verschiedenen Spielern gesteuert werden.
 Jeder Spieler erlebt das Spiel aus einer **3D-Ego-Perspektive**.
@@ -22,8 +22,15 @@ Die **Gewinnbedingung** besteht darin, einen bestimmten Mindest-Kalorienstand zu
 Ich war verantwortlich für den **Aufbau des Multiplayer-Lobbysystems** mit **Echtzeit-Synchronisation** zwischen den Spielern.
 Spieler können **Lobbys erstellen, löschen, beitreten** und **Einladungslinks** an andere senden, um gemeinsam zu spielen.
 
+<img width="2483" height="1466" alt="Screenshot from 2025-10-27 11-50-50" src="https://github.com/user-attachments/assets/d7c49fa1-3073-490b-8281-c11fd393ca73" />
+<img width="2489" height="1458" alt="Screenshot from 2025-10-27 11-50-56" src="https://github.com/user-attachments/assets/427b91d8-d46b-448b-ae24-8f2870f85f91" />
+
 Darüber hinaus habe ich eine zusätzliche **Map-Import- und Export-Funktion** entwickelt,
 die es ermöglicht, **Karten vor Spielbeginn zu importieren** und **nach Spielende zu exportieren**.
+
+<img width="2483" height="1457" alt="Screenshot from 2025-10-27 11-52-14" src="https://github.com/user-attachments/assets/3f4bec43-be86-4d4d-bb3d-1dff88e24ff0" />
+<img width="2480" height="1466" alt="Screenshot from 2025-10-27 11-53-49" src="https://github.com/user-attachments/assets/a1c09bed-f822-4818-a946-6b6e94355071" />
+
 
 ---
 
@@ -40,18 +47,6 @@ die es ermöglicht, **Karten vor Spielbeginn zu importieren** und **nach Spielen
 ---
 
 ## 🚀 Projekt starten
-
-```bash
-# Backend starten
-./gradlew bootRun
-
-# Frontend starten
-npm install
-npm run dev
-```
-
-
-# Beispielprojekt spring-vue-verknotung
 
 Mini-Beispiel für automatischen Build "Vue-Frontend + Spring-Backend"
 mit Paketierung in ausführbarem Jar.
