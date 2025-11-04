@@ -38,11 +38,10 @@ die es ermöglicht, **Karten vor Spielbeginn zu importieren** und **nach Spielen
 
 | Bereich           | Technologie                     |
 | ----------------- | ------------------------------- |
-| **Backend**       | Spring Boot (Gradle), WebSocket |
-| **Datenbank**     | PostgreSQL                      |
+| **Backend**       | Spring Boot (Gradle)            |
 | **Frontend**      | Vue.js, Three.js                |
 | **Tools**         | npm, Gradlew                    |
-| **Versionierung** | Git & GitHub                    |
+| **Versionierung** | Git                             |
 
 ---
 
