@@ -1,3 +1,56 @@
+
+## 🕹️ Projektbeschreibung
+
+![Spielübersicht](link_zum_bild)
+
+**SnackMan Multiplayer** ist ein 3D-Mehrspieler-Spiel, in dem mehrere **SnackMen** und **Geister** von verschiedenen Spielern gesteuert werden.
+Jeder Spieler erlebt das Spiel aus einer **3D-Ego-Perspektive**.
+
+Zu Beginn sind die Wege mit Snacks unterschiedlicher Kalorienwerte belegt.
+Die **SnackMen** sammeln Lebensmittel, um Kalorien aufzunehmen – abhängig vom **Nutri-Score** der gesammelten Snacks.
+**Geister** jagen die SnackMen.
+
+Zusätzlich gibt es **robotische Hühner**, die ebenfalls Snacks fressen und Eier legen. Diese Eier können von SnackMen gesammelt werden und liefern wertvolle Proteine sowie viele Kalorienpunkte beim Verzehr.
+
+Darüber hinaus können weitere **sammel- und nutzbare Gegenstände** integriert werden, die zusätzliche Funktionen ermöglichen.
+Die **Gewinnbedingung** besteht darin, einen bestimmten Mindest-Kalorienstand zu erreichen.
+
+---
+
+## 💻 Meine Rolle im Projekt
+
+Ich war verantwortlich für den **Aufbau des Multiplayer-Lobbysystems** mit **Echtzeit-Synchronisation** zwischen den Spielern.
+Spieler können **Lobbys erstellen, löschen, beitreten** und **Einladungslinks** an andere senden, um gemeinsam zu spielen.
+
+Darüber hinaus habe ich eine zusätzliche **Map-Import- und Export-Funktion** entwickelt,
+die es ermöglicht, **Karten vor Spielbeginn zu importieren** und **nach Spielende zu exportieren**.
+
+---
+
+## 🧩 Technologien verwendet
+
+| Bereich           | Technologie                     |
+| ----------------- | ------------------------------- |
+| **Backend**       | Spring Boot (Gradle), WebSocket |
+| **Datenbank**     | PostgreSQL                      |
+| **Frontend**      | Vue.js, Three.js                |
+| **Tools**         | npm, Gradlew                    |
+| **Versionierung** | Git & GitHub                    |
+
+---
+
+## 🚀 Projekt starten
+
+```bash
+# Backend starten
+./gradlew bootRun
+
+# Frontend starten
+npm install
+npm run dev
+```
+
+
 # Beispielprojekt spring-vue-verknotung
 
 Mini-Beispiel für automatischen Build "Vue-Frontend + Spring-Backend"
